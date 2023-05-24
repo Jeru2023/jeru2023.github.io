@@ -52,7 +52,7 @@ a, li, p {
     letter-spacing: -.025em;
 }
 a {
-    color: inherit;
+    color: #aaddFF;
     text-decoration: inherit;
 }
 
@@ -60,7 +60,7 @@ a {
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 440px 440px;
+    #grid-template-rows: 440px 440px;
     row-gap: 100px;
     column-gap: 200px;
     margin: auto;
