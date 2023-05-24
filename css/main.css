@@ -1,6 +1,9 @@
 body {
     margin: 0;
     line-height: inherit;
+	background-image: url("../img/background.jpg");
+	background-color: #cccccc;
+	background-size:cover
 }
 
 html {
@@ -12,6 +15,27 @@ html {
 
 h1 {
     text-align: center;
+	color: #fff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.intro {
+    text-align: center;
+	color: #fff;
+	margin-bottom: 80px;
+}
+
+.title {
+	color: #fff;
+	margin-top: 20px;
+	font-size: 2rem;
+}
+
+.text {
+	color: #ddd;
+	font-size: 1.2rem;
+	margin-top: 20px;
 }
 
 h4 {
@@ -36,15 +60,17 @@ a {
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px 400px;
-    row-gap: 50px;
-    column-gap: 100px;
+    grid-template-rows: 440px 440px;
+    row-gap: 100px;
+    column-gap: 200px;
     margin: auto;
 }
 
 .box {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 164 33/var(--tw-bg-opacity));
+    --tw-bg-opacity: 0.8;
+    background-color: rgb(255 164 133/var(--tw-bg-opacity));
+	padding: 20px;
+	
 }
 
 .gg-arrow-right-o {
