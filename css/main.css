@@ -73,6 +73,35 @@ a {
 	
 }
 
+.ui-link {
+    z-index: 10;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.entry {
+	vertical-align: bottom;
+	align-content: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}	
+	
+.border {
+    border-width: 1px;
+	box-sizing: border-box;
+    border-style: solid;
+    border-color: #ddd;
+	background-color: #fff;
+}
+
+.f-ui-1 {
+	margin-left: 10px;
+}
+	
+.inline-block {
+    display: inline-block;
+}
+
 .gg-arrow-right-o {
     box-sizing: border-box;
     position: relative;
